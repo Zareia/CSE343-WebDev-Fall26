@@ -1,0 +1,67 @@
+.commentsSection {
+    max-width: 480px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 2px solid #222;
+    border-radius: 10px;
+}
+
+.submit {
+    padding: 0 22px;
+    background: #2f7ad9;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+.comment {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.profileIMG {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #2f7ad9;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+.bubble {
+    background: #eee;
+    padding: 10px 14px;
+    border-radius: 12px;
+    color: #222;
+}
+
+.bubble p {
+    margin: 4px 0 8px;
+}
+
+.like {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #c0392b;
+    border-radius: 12px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
